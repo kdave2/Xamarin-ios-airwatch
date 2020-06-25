@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intialization Started:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNy-XV-FrI">
+                                <rect key="frame" x="20" y="28" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Zzi-dU-vrJ"/>
+                                    <constraint firstAttribute="width" constant="200" id="s5Y-X8-5Nj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="s5Y-X8-5Nj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="s5Y-X8-5Nj"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Check Completed:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyP-03-vIS">
+                                <rect key="frame" x="20" y="65" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="N3R-6e-H9t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9wH-Ia-MCG" userLabel="InitStartedView">
+                                <rect key="frame" x="285" y="62" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PG0-lt-Hqh"/>
+                                    <constraint firstAttribute="width" constant="30" id="gVz-lF-EUu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQB-ee-wCE" userLabel="InitStartedView">
+                                <rect key="frame" x="285" y="100" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="FFw-lq-Hsc"/>
+                                    <constraint firstAttribute="height" constant="30" id="mIk-yq-bpa"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile(s) Received:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiN-B4-G5F">
+                                <rect key="frame" x="20" y="103" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2rU-bA-NTZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="kGQ-aj-ZHd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lV1-ae-O2n" userLabel="InitStartedView">
+                                <rect key="frame" x="285" y="24" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="3Lt-eX-n9x"/>
+                                    <constraint firstAttribute="height" constant="30" id="Nb0-vW-cjg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lV1-ae-O2n" firstAttribute="leading" secondItem="lNy-XV-FrI" secondAttribute="trailing" constant="65" id="89x-td-1EQ"/>
+                            <constraint firstItem="lV1-ae-O2n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Avp-XJ-a6y"/>
+                            <constraint firstItem="9wH-Ia-MCG" firstAttribute="top" secondItem="lV1-ae-O2n" secondAttribute="bottom" constant="8" id="BLQ-bS-Fuh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="UiN-B4-G5F" secondAttribute="leading" id="FSk-tW-Qck"/>
+                            <constraint firstItem="VQB-ee-wCE" firstAttribute="top" secondItem="9wH-Ia-MCG" secondAttribute="bottom" constant="8" id="Hy2-R7-caa"/>
+                            <constraint firstItem="9wH-Ia-MCG" firstAttribute="leading" secondItem="KyP-03-vIS" secondAttribute="trailing" constant="65" id="IXv-Q9-Gks"/>
+                            <constraint firstItem="lNy-XV-FrI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="P0o-dv-NdS"/>
+                            <constraint firstItem="VQB-ee-wCE" firstAttribute="width" secondItem="9wH-Ia-MCG" secondAttribute="width" id="QH4-hI-Or4"/>
+                            <constraint firstItem="KyP-03-vIS" firstAttribute="top" secondItem="lNy-XV-FrI" secondAttribute="bottom" constant="17" id="Rhz-Sf-ZsU"/>
+                            <constraint firstItem="VQB-ee-wCE" firstAttribute="leading" secondItem="UiN-B4-G5F" secondAttribute="trailing" constant="65" id="V0h-BK-DbN"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="KyP-03-vIS" secondAttribute="leading" id="VMa-ss-wx3"/>
+                            <constraint firstItem="lV1-ae-O2n" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="4" id="WhQ-J2-Cvs"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lNy-XV-FrI" secondAttribute="leading" id="nZt-HB-O7l"/>
+                            <constraint firstItem="9wH-Ia-MCG" firstAttribute="width" secondItem="lV1-ae-O2n" secondAttribute="width" id="s70-mX-ZSB"/>
+                            <constraint firstItem="UiN-B4-G5F" firstAttribute="top" secondItem="KyP-03-vIS" secondAttribute="bottom" constant="17" id="v2o-u0-ihl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Avp-XJ-a6y"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Avp-XJ-a6y"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="InitStartedView" destination="lV1-ae-O2n" id="name-outlet-lV1-ae-O2n"/>
+                        <outlet property="ProfilesReceivedView" destination="VQB-ee-wCE" id="name-outlet-VQB-ee-wCE"/>
+                        <outlet property="InitCheckCompletedView" destination="9wH-Ia-MCG" id="name-outlet-9wH-Ia-MCG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
